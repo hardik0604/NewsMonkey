@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="640" height="400" viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b1135"/>
+      <stop offset="100%" stop-color="#04020d"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#63ffd0" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffb700" stop-opacity="0.4"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="640" height="400" fill="url(#bg)"/>
+  <rect x="30" y="30" width="580" height="340" rx="24" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+  <rect x="60" y="60" width="520" height="140" rx="18" fill="rgba(255,255,255,0.06)" filter="url(#shadow)"/>
+  <rect x="60" y="230" width="350" height="90" rx="12" fill="rgba(255,255,255,0.04)"/>
+  <rect x="60" y="335" width="200" height="20" rx="10" fill="url(#glow)"/>
+  <rect x="430" y="230" width="150" height="125" rx="18" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="80" y="110" fill="#ffda6b" font-family="'Space Grotesk', 'Share Tech Mono', monospace" font-size="32" letter-spacing="4">
+    NEWS FEED
+  </text>
+  <text x="80" y="150" fill="#63ffd0" font-family="'Share Tech Mono', monospace" font-size="18" letter-spacing="3">
+    IMAGE UNAVAILABLE
+  </text>
+  <text x="80" y="265" fill="#ffffff" opacity="0.75" font-family="'Space Grotesk', sans-serif" font-size="16" letter-spacing="1">
+    Awaiting transmission... displaying placeholder visual.
+  </text>
+</svg>
+
